@@ -50,7 +50,7 @@
 	<angularjs.version>1.2.12</angularjs.version>
 	<highcharts.version>3.0.10</highcharts.version>
 	<openlayers.version>2.13.1</openlayers.version>
-	<angular-ui-bootstrap.version>0.10.0</angular-ui-bootstrap.version>
+	<angular-ui-bootstrap.version>0.14.3</angular-ui-bootstrap.version>
 	<angular-file-upload.version>1.2.5</angular-file-upload.version>	
 		
 	<maven.compiler.source>${java.version}</maven.compiler.source>
@@ -95,7 +95,7 @@
 			<id>enforce</id>
 			<configuration>
 			    <rules>
-				<DependencyConvergence />
+				<DependencyConvergence/>
 			    </rules>
 			</configuration>
 			<goals>
